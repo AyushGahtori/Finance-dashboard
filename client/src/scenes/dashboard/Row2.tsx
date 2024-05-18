@@ -130,7 +130,7 @@ const Row2 = () => {
               data={pieData}
               innerRadius={18}
               outerRadius={38}
-              paddingAngle={2}
+              paddingAngle={100}
               dataKey="value"
             >
               {pieData.map((entry, index) => (
